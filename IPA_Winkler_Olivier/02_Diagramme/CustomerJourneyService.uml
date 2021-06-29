@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>ch.sbb.kd.kom.sbbgo.service.CustomerJourneyService</OriginalElement>
+  <nodes>
+    <node x="1830.5" y="291.0">ch.sbb.kd.kom.sbbgo.service.TouchpointService</node>
+    <node x="2053.0" y="521.0">ch.sbb.kd.kom.sbbgo.controller.admin.CustomerJourneyController</node>
+    <node x="633.4720238095238" y="303.0">ch.sbb.kd.kom.sbbgo.service.CalculationService</node>
+    <node x="2026.0" y="198.0">ch.sbb.kd.kom.sbbgo.repository.TouchpointRepository</node>
+    <node x="2794.934325396825" y="186.0">ch.sbb.kd.kom.sbbgo.service.dto.JourneyDetails</node>
+    <node x="0.0" y="186.0">ch.sbb.kd.kom.sbbgo.service.dto.TouchpointDto</node>
+    <node x="1646.0" y="186.0">ch.sbb.kd.kom.sbbgo.repository.TouchpointRepositorySearchImpl</node>
+    <node x="1924.1805555555554" y="0.0">ch.sbb.kd.kom.sbbgo.model.Touchpoint</node>
+    <node x="2512.6805555555557" y="291.0">ch.sbb.kd.kom.sbbgo.service.dto.CustomerJourneyDto</node>
+    <node x="1864.5" y="105.0">ch.sbb.kd.kom.sbbgo.repository.TouchpointRepositorySearch</node>
+    <node x="2310.934325396825" y="186.0">ch.sbb.kd.kom.sbbgo.service.dto.TouchpointJourneyRating</node>
+    <node x="1904.0" y="416.0">ch.sbb.kd.kom.sbbgo.service.CustomerJourneyService</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="ch.sbb.kd.kom.sbbgo.repository.TouchpointRepository" target="ch.sbb.kd.kom.sbbgo.repository.TouchpointRepositorySearch">
+      <point x="-54.0" y="-15.5" />
+      <point x="2080.0" y="161.0" />
+      <point x="2064.75" y="161.0" />
+      <point x="66.75" y="15.5" />
+    </edge>
+    <edge source="ch.sbb.kd.kom.sbbgo.service.CustomerJourneyService" target="ch.sbb.kd.kom.sbbgo.service.TouchpointService">
+      <point x="-28.75" y="-27.5" />
+      <point x="2105.25" y="366.0" />
+      <point x="1982.25" y="366.0" />
+      <point x="-151.75" y="27.5" />
+    </edge>
+    <edge source="ch.sbb.kd.kom.sbbgo.service.CustomerJourneyService" target="ch.sbb.kd.kom.sbbgo.service.dto.JourneyDetails">
+      <point x="201.25" y="-27.5" />
+      <point x="2335.25" y="396.0" />
+      <point x="3097.871825396825" y="396.0" />
+      <point x="3097.871825396825" y="266.0" />
+      <point x="3207.434325396825" y="266.0" />
+      <point x="165.0" y="27.5" />
+    </edge>
+    <edge source="ch.sbb.kd.kom.sbbgo.repository.TouchpointRepository" target="ch.sbb.kd.kom.sbbgo.model.Touchpoint">
+      <point x="54.0" y="-15.5" />
+      <point x="2188.0" y="161.0" />
+      <point x="2172.625" y="161.0" />
+      <point x="2172.625" y="85.0" />
+      <point x="2017.2805555555553" y="85.0" />
+      <point x="26.59999999999991" y="27.5" />
+    </edge>
+    <edge source="ch.sbb.kd.kom.sbbgo.service.CustomerJourneyService" target="ch.sbb.kd.kom.sbbgo.service.dto.TouchpointDto">
+      <point x="-201.25" y="-27.5" />
+      <point x="1932.75" y="396.0" />
+      <point x="622.9720238095238" y="396.0" />
+      <point x="622.9720238095238" y="266.0" />
+      <point x="271.0" y="266.0" />
+      <point x="-542.0" y="27.5" />
+    </edge>
+    <edge source="ch.sbb.kd.kom.sbbgo.service.TouchpointService" target="ch.sbb.kd.kom.sbbgo.repository.TouchpointRepository">
+      <point x="-75.875" y="-27.5" />
+      <point x="2058.125" y="266.0" />
+      <point x="2080.0" y="266.0" />
+      <point x="-54.0" y="15.5" />
+    </edge>
+    <edge source="ch.sbb.kd.kom.sbbgo.repository.TouchpointRepositorySearchImpl" target="ch.sbb.kd.kom.sbbgo.repository.TouchpointRepositorySearch">
+      <point x="90.0" y="-27.5" />
+      <point x="1916.0" y="161.0" />
+      <point x="1931.25" y="161.0" />
+      <point x="-66.75" y="15.5" />
+    </edge>
+    <edge source="ch.sbb.kd.kom.sbbgo.controller.admin.CustomerJourneyController" target="ch.sbb.kd.kom.sbbgo.service.CustomerJourneyService">
+      <point x="-130.66666666666652" y="-27.5" />
+      <point x="2118.3333333333335" y="496.0" />
+      <point x="2019.0" y="496.0" />
+      <point x="-115.0" y="27.5" />
+    </edge>
+    <edge source="ch.sbb.kd.kom.sbbgo.repository.TouchpointRepositorySearchImpl" target="ch.sbb.kd.kom.sbbgo.model.Touchpoint">
+      <point x="-90.0" y="-27.5" />
+      <point x="1736.0" y="161.0" />
+      <point x="1787.375" y="161.0" />
+      <point x="1787.375" y="85.0" />
+      <point x="1964.0805555555555" y="85.0" />
+      <point x="-26.59999999999991" y="27.5" />
+    </edge>
+    <edge source="ch.sbb.kd.kom.sbbgo.service.dto.CustomerJourneyDto" target="ch.sbb.kd.kom.sbbgo.service.dto.TouchpointJourneyRating">
+      <point x="-186.375" y="-27.5" />
+      <point x="2574.8055555555557" y="266.0" />
+      <point x="2542.934325396825" y="266.0" />
+      <point x="0.0" y="27.5" />
+    </edge>
+    <edge source="ch.sbb.kd.kom.sbbgo.repository.TouchpointRepositorySearch" target="ch.sbb.kd.kom.sbbgo.model.Touchpoint">
+      <point x="0.0" y="-15.5" />
+      <point x="1998.0" y="85.0" />
+      <point x="1990.6805555555554" y="85.0" />
+      <point x="0.0" y="27.5" />
+    </edge>
+    <edge source="ch.sbb.kd.kom.sbbgo.service.CalculationService" target="ch.sbb.kd.kom.sbbgo.service.dto.TouchpointDto">
+      <point x="0.0" y="-15.5" />
+      <point x="733.4720238095238" y="266.0" />
+      <point x="813.0" y="266.0" />
+      <point x="0.0" y="27.5" />
+    </edge>
+    <edge source="ch.sbb.kd.kom.sbbgo.service.CustomerJourneyService" target="ch.sbb.kd.kom.sbbgo.service.dto.CustomerJourneyDto">
+      <point x="143.75" y="-27.5" />
+      <point x="2277.75" y="386.0" />
+      <point x="2636.9305555555557" y="386.0" />
+      <point x="-124.25" y="27.5" />
+    </edge>
+    <edge source="ch.sbb.kd.kom.sbbgo.controller.admin.CustomerJourneyController" target="ch.sbb.kd.kom.sbbgo.service.dto.CustomerJourneyDto">
+      <point x="130.66666666666652" y="-27.5" />
+      <point x="2379.6666666666665" y="496.0" />
+      <point x="2972.4305555555557" y="496.0" />
+      <point x="2972.4305555555557" y="386.0" />
+      <point x="2885.4305555555557" y="386.0" />
+      <point x="124.25" y="27.5" />
+    </edge>
+    <edge source="ch.sbb.kd.kom.sbbgo.service.CustomerJourneyService" target="ch.sbb.kd.kom.sbbgo.service.CalculationService">
+      <point x="-143.75" y="-27.5" />
+      <point x="1990.25" y="386.0" />
+      <point x="683.4720238095238" y="386.0" />
+      <point x="-50.0" y="15.5" />
+    </edge>
+    <edge source="ch.sbb.kd.kom.sbbgo.service.dto.CustomerJourneyDto" target="ch.sbb.kd.kom.sbbgo.service.dto.JourneyDetails">
+      <point x="62.125" y="-27.5" />
+      <point x="2823.3055555555557" y="266.0" />
+      <point x="2877.434325396825" y="266.0" />
+      <point x="-165.0" y="27.5" />
+    </edge>
+    <edge source="ch.sbb.kd.kom.sbbgo.service.CustomerJourneyService" target="ch.sbb.kd.kom.sbbgo.service.dto.TouchpointJourneyRating">
+      <point x="86.25" y="-27.5" />
+      <point x="2220.25" y="376.0" />
+      <point x="2477.99623015873" y="376.0" />
+      <point x="2477.99623015873" y="266.0" />
+      <point x="2388.2676587301585" y="266.0" />
+      <point x="-154.66666666666652" y="27.5" />
+    </edge>
+    <edge source="ch.sbb.kd.kom.sbbgo.service.TouchpointService" target="ch.sbb.kd.kom.sbbgo.service.dto.TouchpointDto">
+      <point x="-227.625" y="-27.5" />
+      <point x="1906.375" y="266.0" />
+      <point x="1355.0" y="266.0" />
+      <point x="542.0" y="27.5" />
+    </edge>
+    <edge source="ch.sbb.kd.kom.sbbgo.service.dto.TouchpointDto" target="ch.sbb.kd.kom.sbbgo.model.Touchpoint">
+      <point x="0.0" y="-27.5" />
+      <point x="813.0" y="75.0" />
+      <point x="1937.4805555555554" y="75.0" />
+      <point x="-53.200000000000045" y="27.5" />
+    </edge>
+    <edge source="ch.sbb.kd.kom.sbbgo.service.TouchpointService" target="ch.sbb.kd.kom.sbbgo.model.Touchpoint">
+      <point x="227.625" y="-27.5" />
+      <point x="2361.625" y="266.0" />
+      <point x="2252.5" y="266.0" />
+      <point x="2252.5" y="75.0" />
+      <point x="2043.8805555555555" y="75.0" />
+      <point x="53.200000000000045" y="27.5" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="0.6155039166423082" x="2235.241768188164" y="488.5264147586176" />
+  <SelectedNodes />
+  <Categories>
+    <Category>Constructors</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+
